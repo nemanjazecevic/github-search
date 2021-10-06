@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title></title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <p class="page-title">devfinder</p>
+      <div class="dark">
+        <p>DARK</p>
+        <img src="./starter-code/assets/icon-moon.svg" alt="">
+      </div>
+      <div class="light">
+        <p>LIGHT</p>
+        <img src="./starter-code/assets/icon-sun.svg" alt="">
+      </div>
+    </header>
+    <form class="search" onsubmit="return false">
+      <img src="./starter-code/assets/icon-search.svg" alt="">
+      <input id="input-search" class="search-input" type="text" placeholder="Search GitHub username...">
+      <label class="no-results">No results</label>
+      <button class="search-btn">Search</button>
+    </form>
+    <main>
+      <div class="profile-img">
+        <img class="avatar-profile" src="" alt="">
+      </div>
+      <div class="main-wrapper">
+        <div class="container-header">
+          <div class="profile-img-mobile">
+            <img class="avatar-profile-mobile" src="" alt="">
+          </div>
+          <div class="container-help">
+            <div class="name-and-username">
+              <p class="name">The Octocat</p>
+              <p class="username">octocat</p>
+
+            </div>
+            <p class="date">Joined 25 Jan 2011</p>
+          </div>
+
+        </div>
+
+        <p class="profile-bio">This profile has no bio</p>
+        <div class="repos-followers-following">
+          <div class="repos">
+            <p class="title">Repos</p>
+            <p class="num num-repos">8</p>
+          </div>
+          <div class="followers">
+            <p class="title">Followers</p>
+            <p class="num num-followers">3938</p>
+          </div>
+          <div class="following">
+            <p class="title">Following</p>
+            <p class="num num-following">9</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="location-website">
+            <div class="container-2">
+              <img src="./starter-code/assets/icon-location.svg" alt="">
+              <p class="item location">Not Available</p>
+            </div>
+            <div class="container-2">
+              <img src="./starter-code/assets/icon-website.svg" alt="">
+              <a href="#" class="item website" onsubmit="return false">Not Available</a>
+            </div>
+          </div>
+          <div class="twitter-company">
+            <div class="container-2">
+              <img src="./starter-code/assets/icon-twitter.svg" alt="">
+              <a href="#" class="item twitter" onsubmit="return false">Not Available</a>
+            </div>
+            <div class="container-2">
+              <img src="./starter-code/assets/icon-company.svg" alt="">
+              <a href="#" class="item company" onsubmit="return false">Not Available</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+
+
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
